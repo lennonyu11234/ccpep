@@ -1,5 +1,8 @@
 # AI-Driven De Novo design of customizable membrane permeable cyclic peptides
 
+
+![image](TOC.png)
+
 ## Abstract
 Cyclic peptides, with their excellent biological activity and stability, hold great promise in various fields. However, designing their membrane permeable ability is complex and resource intensive using traditional methods. To adress this, we presents an AI-driven de novo design framework, CCPep, which integrates reinforcement learning and contrastive learning to achieve efficient customized design of membrane permeable cyclic peptides. CCPep uses HELM to represent cyclic peptide sequences and leverages a pre-trained BART model for initial sequence generation. Membrane penetration ability is assessed via multiple scoring models , with reinforcement learning optimizing the generated sequences. Additionally, a time-series model is introduced to analyze molecular dynamics simulation data, further validating the dynamic membrane penetration characteristics of cyclic peptides. Results show that CCPep generated cyclic peptide sequences have a membrane penetration rate exceeding 98\% and can flexibly customize peptide chain length, natural amino acid proportion, and target segments. Moreover, alignment between the time series model and sequence encoder, achieved through contrastive learning, significantly boosts model performance. CCPep provides an efficient tool for cyclic peptide drug design and paves the way for AI driven molecular design with multi-objective optimization.
 
